@@ -48,4 +48,4 @@ If you'd like to contribute to this project, please follow these guidelines:
 This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for more details.
 
 ## Author
-This project was created by [ManishKafle](https://github.com/k4fledmanish).
+Project by [Manish Kafle](https://github.com/k4fledmanish).
