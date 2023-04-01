@@ -49,6 +49,3 @@ This project is licensed under the MIT license. See the [LICENSE](LICENSE) file 
 
 ## Author
 This project was created by [ManishKafle](https://github.com/k4fledmanish).
-
-
-This project was created by [Your Name Here](https://github.com/your_username).
