@@ -1,6 +1,6 @@
 # Casual Conversation Generator
 
-The Casual Conversation Generator is a web application that generates casual conversation starters based on user input. The application uses OpenAI's GPT-3 API to generate conversation prompts.
+The Casual Conversation Generator is a web application that generates casual conversation starters based on user input. The application uses OpenAI's API and utilizes text-davinci-003 Model to generate conversation prompts.
 
 ## Technologies Used
 
@@ -23,7 +23,7 @@ To install and run this application on your local machine, follow these steps:
 1. Clone the repository from GitHub.
 2. Navigate to the Client and Server project directory in your split terminal.
 3. Run `npm install` to install the project dependencies.
-4. add your OpenAI API key as `OPENAI_API_KEY=your_api_key in `.env` file in the Server directory of the project.
+4. add your OpenAI API key as OPENAI_API_KEY = 'ENTER OPENAPI_API_KEY' in `.env` file in the Server directory.
 5. Run `npm run dev` to start the development server in client side.
 6. Run `npm run server` to start the server side.
 6. Open your web browser and navigate to ` http://localhost:5173/` to view the application.
