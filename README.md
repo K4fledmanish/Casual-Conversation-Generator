@@ -2,7 +2,7 @@
 
 The Casual Conversation Generator is a web application that generates casual conversation starters based on user input. The application uses OpenAI's API and utilizes text-davinci-003 Model to generate conversation prompts.
 
-![ezgif-4-3e2cc42e66](https://user-images.githubusercontent.com/22991408/229435546-f1b89605-3c08-4a9e-aad9-2efddcb0fe46.gif)
+            ![ezgif-4-3e2cc42e66](https://user-images.githubusercontent.com/22991408/229435546-f1b89605-3c08-4a9e-aad9-2efddcb0fe46.gif)
 
 ## Technologies Used
 
