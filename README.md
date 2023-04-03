@@ -26,7 +26,7 @@ To install and run this application on your local machine, follow these steps:
 2. Navigate to the Client and Server project directory in your split terminal.
 3. Run `npm install` to install the project dependencies.
 4. Add your OpenAI API key as OPENAI_API_KEY = 'ENTER OPENAPI_API_KEY' in `.env` file in the Server directory.
-5. Run `npm run dev` to start the development server in client side.
+5. Run `npm run dev` to start the client server.
 6. Run `npm run server` to start the server side.
 6. Open your web browser and navigate to ` http://localhost:5173/` to view the application.
 
