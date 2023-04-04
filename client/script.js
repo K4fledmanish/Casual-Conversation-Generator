@@ -3,20 +3,21 @@ import user from './assets/user.svg'
 
 const form = document.querySelector('form')
 const chatContainer = document.querySelector('#chat_container')
-const user_input_container = document.querySelector('#user_input_container')
+// const user_input_container = document.querySelector('#user_input_container') // for Test purposes
 
 
 const options = [];
 const optionCheckboxes = document.querySelectorAll('input[name="options"]:checked');
+
 optionCheckboxes.forEach((checkbox) => {
-  options.push(checkbox.value);
+    options.push(checkbox.value);
 });
 
 
 const optionsA = [];
 const optionCheckboxesA = document.querySelectorAll('input[name="options"]:checked');
 optionCheckboxesA.forEach((checkbox) => {
-  optionsA.push(checkbox.value);
+    optionsA.push(checkbox.value);
 });
 
 
@@ -91,29 +92,25 @@ const handleSubmit = async (e) => {
     const dataGrammar = new FormData(form)
 
     // user's chatstripe view for data taken by fetched from the client     TESTING PURPOSES 
+
     // chatContainer.innerHTML += chatStripe(false, dataTopic.get('topic'))
     // chatContainer.innerHTML += chatStripe(false, dataWord.get('words'))
     // chatContainer.innerHTML += chatStripe(false, dataComplex.get('complex'))
     // chatContainer.innerHTML += chatStripe(false, dataTense.get('options'))
     // chatContainer.innerHTML += chatStripe(false, dataGrammar.get('optionsA'))
 
-    //user_input_container.innerHTML += chatStripe(false, dataTopic.get('topic','words'))
-   
+    // To clear the textarea input 
 
-    //chatContainer.innerHTML += chatStripe(false, dataTense.get('tense'))
-    //chatContainer.innerHTML += chatStripe(false, dataGrammar.get('grammar'))
-
-    // to clear the textarea input 
     //form.reset()
 
     // bot's chatstripe
     const uniqueId = generateUniqueId()
     chatContainer.innerHTML += chatStripe(true, " ", uniqueId)
-    
+
 
     // to focus scroll to the bottom 
     chatContainer.scrollTop = chatContainer.scrollHeight;
-  
+
 
     // specific message div 
     const messageDiv = document.getElementById(uniqueId)
@@ -130,10 +127,10 @@ const handleSubmit = async (e) => {
             promptTopic: dataTopic.get('topic'),
             promptWord: dataWord.get('word'),
             promptComplex: dataComplex.get('complex'),
+
         })
     })
 
-    
 
     clearInterval(loadInterval)
     messageDiv.innerHTML = " "
@@ -143,7 +140,7 @@ const handleSubmit = async (e) => {
         const parsedData = data.bot.trim() // trims any trailing spaces/'\n' 
 
         typeText(messageDiv, parsedData)
-        
+
     } else {
         const err = await response.text()
 
