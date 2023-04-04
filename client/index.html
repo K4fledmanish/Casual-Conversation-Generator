@@ -4,8 +4,6 @@
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="favicon.ico" />
-  <!-- //<link rel="stylesheet" type="text/css" href="css/util.css"> -->
-<!-- <link rel="stylesheet" type="text/css" href="css/main.css"> -->
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Casual Conversations Generator</title>
@@ -13,13 +11,14 @@
 </head>
 
 <body>
-  <div class="column">
-    <div class="wrapper">
+  <div id="app">
+    <div class="column">
+      <div class="wrapper">
 
-      <div class="title">
-        Casual Conversations Generator
-      </div>
-      <div id="app">
+        <div class="title">
+          Casual Conversations Generator
+        </div>
+
 
         <div class="form">
           <form>
@@ -49,14 +48,6 @@
             <div class="inputfield" name=" tense">
               <label for="options">Select tense</label>
               <div>
-                <!-- <input id="PresentSimple" type="checkbox" value="true">
-                <label for="presentSimple">Present Simple</label><br>
-                <input id="PresentPerfect" type="checkbox" value="true">
-                <label for="present-perfect-checkbox">Present Perfect</label><br>
-                <input id="PastSimple" type="checkbox" value="true">
-                <label for="past-simple-checkbox">Past Simple</label><br> -->
-
-
                 <label name="options" for="options">Options:</label>
                 <br>
                 <input type="checkbox" id="option1" name="options" value="Present Simple">
@@ -77,16 +68,6 @@
             <div name="grammar" class="inputfield">
               <label>Select grammar</label>
               <div>
-                <!-- <input name="grammar" type="checkbox" id="conjunctions-checkbox">
-                <label for="conjunctions-checkbox">Conjunctions</label><br>
-
-                <input name="grammar" type="checkbox" id="modal-verbs-checkbox">
-                <label for="modal-verbs-checkbox">Modal Verbs</label><br>
-
-                <input name="grammar" type="checkbox" id="idioms-checkbox">
-                <label for="idioms-checkbox">Idioms</label><br> -->
-
-
                 <label name="optionsA" for="options">Options:</label>
                 <br>
                 <input type="checkbox" id="option1" name="optionsA" value="Conjunctions">
@@ -99,39 +80,41 @@
                 <label for="option3">Idioms</label>
                 <br>
                 <br>
-
               </div>
 
             </div>
+        
+          
 
-
-
+          <div class="column">
             <div class="columnBtn1">
               <div class="container-contact1-form-btn">
                 <button>
-                  <span>
-                    <input class="contact1-form-btn" type="submit" value="Generate conversation">
-                  </span>
+                  <input class="button3" type="submit" value="Generate conversation">
                 </button>
               </div>
             </div>
+          </div>
 
+          <div class="column">
             <div class="columnBtn1">
+              <div class="container-contact1-form-btn">
+                <button>
+                  <input class="button3" type="submit" value="Re-Generate">
+                </button>
+              </div>
             </div>
-            <div class="container-contact1-form-btn">
-              <button>
-                <span>
-                  <input class="contact1-form-btn" type="submit" value="Re-Generate">
-
-                </span>
-              </button>
-            </div>
-
-
-          </form>
+          </div>
         </div>
-        <div id="user_input_container"></div>
       </div>
+
+    </form>
+    </div>
+
+      <div id="user_input_container">
+        <!-- User input will be shown -->
+      </div>
+
     </div>
   </div>
 
@@ -141,7 +124,7 @@
       <div class="title">
         Conversation
       </div>
-      <div style="height: 422px;" id="chat_container"></div>
+      <div  id="chat_container"></div>
     </div>
   </div>
 
