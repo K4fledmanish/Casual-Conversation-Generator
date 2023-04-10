@@ -45,6 +45,15 @@ If you'd like to contribute to this project, please follow these guidelines:
 3. Push your changes to your forked repository.
 4. Create a pull request to merge your changes into the main repository.
 
+## Code of Conduct
+
+Please review our Code of Conduct before contributing to this project.
+
+## Security
+
+For any security concerns or vulnerabilities, please review our Security Policy.
+
+
 ## License
 
 This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for more details.
