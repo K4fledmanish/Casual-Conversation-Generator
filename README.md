@@ -47,11 +47,11 @@ If you'd like to contribute to this project, please follow these guidelines:
 
 ## Code of Conduct
 
-Please review our [Code of Conduct](Code of Conduct) before contributing to this project.
+Please review our [Code_of_Conduct](Code of Conduct) before contributing to this project.
 
 ## Security
 
-For any security concerns or vulnerabilities, please review our [Security Policy](Security).
+For any security concerns or vulnerabilities, please review our [Security](Security Policy).
 
 
 ## License
